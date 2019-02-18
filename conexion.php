@@ -22,7 +22,7 @@
                   or die("problemas de conexion "  . $conn->connect_error); 
                   */
     //mysqli_set_charset($conn, "utf8");
-    mysqli_set_charset($con, "utf8");
+    //mysqli_set_charset($con, "utf8");
     
     // Datatie Ccs
     date_default_timezone_set('America/Caracas');

@@ -26,7 +26,7 @@
 			<center>
 				<img src="./productos/<?php echo $f['imagen'];?>"><br>
 				<span><?php echo $f['nombre'];?></span><br>
-				<a href="./detalles.php">ver</a>
+				<a href="./detalles.php?id=<?php echo $f['id'];?>">ver</a>
 			</center>
 		</div>
 	<?php
